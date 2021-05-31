@@ -32,6 +32,15 @@
                 Log in
             </breeze-button>
         </div>
+
+        <div class="flex items-center justify-center mt-4">
+            <a class="inline-flex items-center mx-1 text-center px-4 py-2 bg-blue-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray transition ease-in-out duration-150" :href="route('facebook.redirect')">
+                Log in with Facebook
+            </a>
+            <a class="inline-flex items-center mx-1 text-center px-4 py-2 bg-red-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray transition ease-in-out duration-150" :href="route('google.redirect')">
+                Log in with Google
+            </a>
+        </div>
     </form>
 </template>
 
