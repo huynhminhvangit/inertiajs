@@ -7,11 +7,11 @@
 
             <template v-else>
                 <inertia-link :href="route('login')" class="text-sm text-gray-700 underline">
-                    Log in
+                    {{ __('Log in') }}
                 </inertia-link>
 
                 <inertia-link v-if="canRegister" :href="route('register')" class="ml-4 text-sm text-gray-700 underline">
-                    Register
+                    {{ __('Register') }}
                 </inertia-link>
             </template>
         </div>
@@ -105,6 +105,9 @@
                 <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                     Laravel v{{ laravelVersion }} (PHP v{{ phpVersion }})
                 </div>
+                <div class="ml-4 text-center">
+                    <language-selector />
+                </div>
             </div>
         </div>
     </div>
@@ -175,7 +178,9 @@
 </style>
 
 <script>
+    import LanguageSelector from "@/Shared/LanguageSelector";
     export default {
+        components: {LanguageSelector},
         props: {
             auth: Object,
             canLogin: Boolean,
