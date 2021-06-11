@@ -1,4 +1,17 @@
 {
     "Log in": "Log in",
-    "Register": "Register"
+    "Register": "Register",
+    "Dashboard": "Dashboard",
+    "Forgot your password?": "Forgot your password?",
+    "Whoops! Something went wrong.": "Whoops! Something went wrong.",
+    "Email": "Email",
+    "Password": "Password",
+    "Remember me": "Remember me",
+    "Log in with Facebook": "Log in with Facebook",
+    "Log in with Google": "Log in with Google",
+    "Name": "Name",
+    "Confirm Password": "Confirm Password",
+    "Already registered?": "Already registered?",
+    "You're logged in!": "You're logged in!",
+    "Log Out": "Log Out"
 }

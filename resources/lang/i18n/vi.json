@@ -1,4 +1,17 @@
 {
     "Log in": "Đăng nhập",
-    "Register": "Đăng ký"
+    "Register": "Đăng ký",
+    "Dashboard": "Bảng điều khiển",
+    "Forgot your password?": "Quên mật khẩu?",
+    "Whoops! Something went wrong.": "Rất tiếc! Đã xảy ra sự cố.",
+    "Email": "Email",
+    "Password": "Mật khẩu",
+    "Remember me": "Nhớ tài khoản",
+    "Log in with Facebook": "Đăng nhập bằng Facebook",
+    "Log in with Google": "Đăng nhập bằng Google",
+    "Name": "Họ và tên",
+    "Confirm Password": "Nhập lại mật khẩu",
+    "Already registered?": "Bạn đã có tài khoản?",
+    "You're logged in!": "Bạn đã đăng nhập!",
+    "Log Out": "Đăng xuất"
 }
